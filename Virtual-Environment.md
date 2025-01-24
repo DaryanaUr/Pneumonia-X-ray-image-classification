@@ -4,7 +4,13 @@ ________________________________________
 conda create --name xray_env python=3.9
 conda activate xray_env
 
-### Then, you need to install the libraries
+Or 
+virtualenv xray_env 
+YOUR_PATH\xray_env\Scripts\activate
+
+At the end: deactivate
+
+### You need to install the libraries
 pip install os tensorflow matplotlib seaborn pandas numpy scikit-learn opencv-python jupyter tqdm
 
 ### Install the Jupyter kernel in the virtual environment
