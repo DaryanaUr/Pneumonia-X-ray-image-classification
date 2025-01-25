@@ -1,4 +1,4 @@
-# X-ray-Images-Classification
+# Pneumonia X-ray image classification
 
 As a personal project, I leveraged my Python skills to develop an AI model to classify X-ray images. Using advanced libraries such as TensorFlow and Keras, I built and trained a neural network to identify and categorize images of healthy patients and patients with pneumonia.
 
