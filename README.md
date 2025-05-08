@@ -1,11 +1,17 @@
-# Pneumonia X-ray image classification
+As a personal project, I developed an AI-based image classification model to detect pneumonia from chest X-ray scans using Python, TensorFlow, and Keras. The project focused on applying deep learning techniques to a real-world biomedical problem and demonstrates the potential of AI in radiological diagnostics.
 
-As a personal project, I leveraged my Python skills to develop an AI model to classify X-ray images. Using advanced libraries such as TensorFlow and Keras, I built and trained a neural network to identify and categorize images of healthy patients and patients with pneumonia.
+🧪 Workflow Overview:
 
-### The workflow included:
+🧼 Data Preprocessing
+Cleaned, normalized, and augmented the dataset to enhance generalization and reduce overfitting.
 
-- 📝 Data preprocessing: Cleaning, normalizing, and augmenting the dataset to enhance model performance and ensure robustness.
-- 🧠 Model design: Implementing a convolutional neural network (CNN) using Keras, fine-tuning hyperparameters, and optimizing the architecture for medical image classification.
-- 📈 Training and evaluation: Training the model on labeled datasets, evaluating accuracy, and testing its performance on unseen X-ray images.
-- 📊 Result visualization: Using tools like Matplotlib to analyze metrics such as accuracy and loss, providing insights into the model’s performance.
+🧠 Model Development
+Designed and trained a Convolutional Neural Network (CNN) tailored for medical image classification. Hyperparameters were fine-tuned to improve diagnostic accuracy.
 
+📈 Model Training & Evaluation
+Trained the model on labeled chest X-ray images (healthy vs. pneumonia) and validated performance using test data. Achieved strong results across key metrics.
+
+📊 Results Visualization
+Used Matplotlib to visualize learning curves (accuracy, loss) and assess the model’s behavior during training.
+
+This project illustrates my ability to handle end-to-end AI development in healthcare scenarios — from data processing to model evaluation.
